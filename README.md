@@ -46,4 +46,4 @@ The **tasks** include: 1) identification of key growth metrics, 2) optimization 
 
 - Developed SQL queries to retrieve and display the following key metrics on the dashboard:
 
-  1) Dashboard about sales (["Online_Marketplace_Sales"](metabase/Online_Marketplace_Sales.pdf), can also be found on the public link: http://localhost:3000/public/dashboard/48405444-bb0f-4103-9a3a-816b4c8ba3a3)
+  1) Dashboard on sales (["Online_Marketplace_Sales"](metabase/Metabase - Online_Marketplace_Sales.pdf), also available via public link: http://localhost:3000/public/dashboard/48405444-bb0f-4103-9a3a-816b4c8ba3a3)
