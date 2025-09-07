@@ -58,7 +58,7 @@ The **tasks** include: 1) identification of key growth metrics, 2) optimization 
    - Monthly Revenue Trend;
    - Average Order Value Trend
 
-3) Dashboard on **customer behavior** (["Online_Marketplace_Customer_Behavior"](metabase/Metabase_Online_Marketplace_Customer_Behavior.pdf), also available via public link: http://localhost:3000/public/dashboard/2c5560be-9e2d-463b-b756-3250f4b90551):
+2) Dashboard on **customer behavior** (["Online_Marketplace_Customer_Behavior"](metabase/Metabase_Online_Marketplace_Customer_Behavior.pdf), also available via public link: http://localhost:3000/public/dashboard/2c5560be-9e2d-463b-b756-3250f4b90551):
    - Daily Active Users (DAU);
    - Weekly Active Users (WAU);
    - Monthly Active Users (MAU);
@@ -69,7 +69,7 @@ The **tasks** include: 1) identification of key growth metrics, 2) optimization 
    - Distribution of Purchases by Time of Day;
    - Rolling Retention
 
-5) Dashboard on **product assortment** (["Online_Marketplace_Assortment"](metabase/Metabase_Online_Marketplace_Assortment.pdf), also available via public link: http://localhost:3000/public/dashboard/8bdc3023-f7e6-4aa1-9553-7eb4fad556f6):
+3) Dashboard on **product assortment** (["Online_Marketplace_Assortment"](metabase/Metabase_Online_Marketplace_Assortment.pdf), also available via public link: http://localhost:3000/public/dashboard/8bdc3023-f7e6-4aa1-9553-7eb4fad556f6):
    - SKU Count;
    - Average List price;
    - Average Items per Order;
@@ -80,3 +80,9 @@ The **tasks** include: 1) identification of key growth metrics, 2) optimization 
    - Monthly Sales Volume Trend;
    - Number of Orders per Month Decade;
    - Monthly Number of Orders
+  
+### 03 - Product Hypothesis Test Results
+
+The file [some_statistics_segmentation_thresholds.py](python/some_statistics_segmentation_thresholds.py) documents the step-by-step process of hypothesis testing with applied statistical methods.
+
+### 04 - Business Insights
