@@ -124,3 +124,5 @@ The file [product_hypothesis_test_results.py](python/product_hypothesis_test_res
    (3) loyalty system with cumulative discounts.
 
    Implementation of these customer base strategies will help achieve: (1) increased retention; (2) more repeat purchases & higher LTV; (3) DAU/WAU/MAU growth → stable order flow
+
+For a detailed overview of the applied metrics, results of product hypothesis testing, and strategic recommendations, please refer to the full [report](report/RFM_analysis_of_the_pharmacy_chain_customer_base.pdf)
