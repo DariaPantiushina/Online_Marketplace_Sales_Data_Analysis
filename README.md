@@ -86,15 +86,19 @@ The **tasks** include: 1) identification of key growth metrics, 2) optimization 
 The file [product_hypothesis_test_results.py](python/product_hypothesis_test_results.py) documents the step-by-step process of hypothesis testing with applied statistical methods.
 
 1) **Hypothesis 1**: on average, women spend more than men when shopping.
+
    **Result**: no significant difference in average order value (women vs. men). Customer gender does not influence average order value; men and women spend roughly the same.
 
 3) **Hypothesis 2**: the average order size depends on the availability of a discount.
+
    **Result**: no significant difference in average items per order (no discount vs. discount). Discounts do not appear to impact how many items customers order on average (discount → no increase in average items per order). Order sizes remain nearly the same whether a discount is offered or not.
 
 5) **Hypothesis 3**: the probability of placing an order is higher for discounted items compared to non-discounted items.
+
    **Result**: the null hypothesis is rejected; customers are overwhelmingly more likely to purchase discounted items (discounted items → purchased many times more than non-discounted).
 
 7) **Hypothesis 4**: the average quantity of units sold decreases as product price increases.
+
    **Result**: no significant difference in average items per order (low vs. high-priced products). Product price does not appear to affect the average sales quantity in this dataset (high product price does not decrease the average sales volume). 
 
 ### 04 - Some Business Insights
@@ -103,8 +107,20 @@ The file [product_hypothesis_test_results.py](python/product_hypothesis_test_res
 
 2) The peak sales months are January, February, and November. Launch new items before peaks → test demand with limited batches.
 
-3) Discounts are the primary driver of sales. Price & discount optimization: within the ABC segmentation framework, it is recommended to (1) limit discounts for Group B (mid-range) products to a maximum of 50% in order to preserve profitability; (2) implement discount promotions for Group C products before their phase-out.
+3) Discounts are the primary driver of sales. Price & discount optimization: within the ABC segmentation framework, it is recommended to
+
+   (1) limit discounts for Group B (mid-range) products to a maximum of 50% in order to preserve profitability;
+
+   (2) implement discount promotions for Group C products before their phase-out.
+
    Implementation of these customer base strategies will help achieve: (1) higher product margins; (2) lower losses from over-discounting; (3) balanced pricing structure
 
-4) Customer base strategy: (1) personalized email offers → 30/60/90 days post-purchase; (2) referral program; (3) loyalty system with cumulative discounts.
+5) Customer base strategy:
+
+   (1) personalized email offers → 30/60/90 days post-purchase;
+
+   (2) referral program;
+
+   (3) loyalty system with cumulative discounts.
+
    Implementation of these customer base strategies will help achieve: (1) increased retention; (2) more repeat purchases & higher LTV; (3) DAU/WAU/MAU growth → stable order flow
