@@ -39,3 +39,11 @@ The **tasks** include: 1) identification of key growth metrics, 2) optimization 
 - The script [fetch_sales_data.py](python/fetch_sales_data.py) was set up to automatically retrieve the previous day’s sales data at 7 a.m. each day using the Windows Task Scheduler
 
 - Logging is configured to the "log.txt" file
+
+### 02 - Creating 3 dashboards in Metabase
+
+- Established connection between Data_analytics database and Metabase
+
+- Developed SQL queries to retrieve and display the following key metrics on the dashboard:
+
+  1) Dashboard about sales (["Online_Marketplace_Sales"](metabase/Online_Marketplace_Sales.pdf), can also be found on the public link: http://localhost:3000/public/dashboard/48405444-bb0f-4103-9a3a-816b4c8ba3a3)
