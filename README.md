@@ -2,7 +2,7 @@
 
 **The purpose of this analysis** is to optimize marketplace sales strategy to increase 1) revenue, 2) margins, and 3) customer retention.
 
-The **tasks** include: 1) identification of key growth metrics, 2) optimization of the product range matrix (ABC segmentation), 3) analysis of the effectiveness of the pricing policy, 4) examination of customer behavior.
+The **tasks** include: 1) identification of key growth metrics, 2) optimization of the product range matrix (**ABC segmentation**), 3) analysis of the effectiveness of the pricing policy, 4) examination of customer behavior.
 
 ## Data
 
@@ -73,7 +73,7 @@ The **tasks** include: 1) identification of key growth metrics, 2) optimization 
    - SKU Count;
    - Average List price;
    - Average Items per Order;
-   - Distribution of Products (ABC Segmentation);
+   - Distribution of Products (**ABC Segmentation**);
    - Combined ABC Segmentation;
    - TOP-10 Products with the highest units sold;
    - TOP-10 Products with the lowest units sold;
@@ -84,5 +84,13 @@ The **tasks** include: 1) identification of key growth metrics, 2) optimization 
 ### 03 - Product Hypothesis Test Results
 
 The file [product_hypothesis_test_results.py](python/product_hypothesis_test_results.py) documents the step-by-step process of hypothesis testing with applied statistical methods.
+
+1) **Hypothesis 1**: on average, women spend more than men when shopping. **Result**: no significant difference in average order value (women vs. men). Customer gender does not influence average order value; men and women spend roughly the same.
+
+2) **Hypothesis 2**: the average order size depends on the availability of a discount. **Result**: no significant difference in average items per order (no discount vs. discount). Discounts do not appear to impact how many items customers order on average (discount → no increase in average items per order). Order sizes remain nearly the same whether a discount is offered or not.
+
+3) **Hypothesis 3**: the probability of placing an order is higher for discounted items compared to non-discounted items. **Result**: the null hypothesis is rejected; customers are overwhelmingly more likely to purchase discounted items (discounted items → purchased many times more than non-discounted).
+
+4) **Hypothesis 4**: the average quantity of units sold decreases as product price increases. **Result**: no significant difference in average items per order (low vs. high-priced products). Product price does not appear to affect the average sales quantity in this dataset (high product price does not decrease the average sales volume). 
 
 ### 04 - Business Insights
