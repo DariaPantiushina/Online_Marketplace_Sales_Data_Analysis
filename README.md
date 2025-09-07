@@ -83,6 +83,6 @@ The **tasks** include: 1) identification of key growth metrics, 2) optimization 
   
 ### 03 - Product Hypothesis Test Results
 
-The file [some_statistics_segmentation_thresholds.py](python/some_statistics_segmentation_thresholds.py) documents the step-by-step process of hypothesis testing with applied statistical methods.
+The file [product_hypothesis_test_results.py](python/product_hypothesis_test_results.py) documents the step-by-step process of hypothesis testing with applied statistical methods.
 
 ### 04 - Business Insights
