@@ -46,8 +46,37 @@ The **tasks** include: 1) identification of key growth metrics, 2) optimization 
 
 - Developed SQL queries to retrieve and display the following key metrics on the dashboard:
 
-1) Dashboard on **sales** (["Online_Marketplace_Sales"](metabase/Metabase_Online_Marketplace_Sales.pdf), also available via public link: http://localhost:3000/public/dashboard/48405444-bb0f-4103-9a3a-816b4c8ba3a3): Daily / Weekly / Monthly revenue; Total revenue; Average discount, Average Order Value (AOV); Revenue and Number of Orders by Discount Size; TOP-10 Products by Revenue; TOP-10 Products by Average Order Value (AOV); Monthly Sales Count; Monthly Revenue Trend; Average Order Value Trend
+1) Dashboard on **sales** (["Online_Marketplace_Sales"](metabase/Metabase_Online_Marketplace_Sales.pdf), also available via public link: http://localhost:3000/public/dashboard/48405444-bb0f-4103-9a3a-816b4c8ba3a3):
+   - Daily / Weekly / Monthly revenue;
+   - Total revenue;
+   - Average discount;
+   - Average Order Value (AOV);
+   - Revenue and Number of Orders by Discount Size;
+   - TOP-10 Products by Revenue;
+   - TOP-10 Products by Average Order Value (AOV);
+   - Monthly Sales Count;
+   - Monthly Revenue Trend;
+   - Average Order Value Trend
 
-2) Dashboard on **customer behavior** (["Online_Marketplace_Customer_Behavior"](metabase/Metabase_Online_Marketplace_Customer_Behavior.pdf), also available via public link: http://localhost:3000/public/dashboard/2c5560be-9e2d-463b-b756-3250f4b90551): Daily Active Users (DAU); Weekly Active Users (WAU); Monthly Active Users (MAU); LTV; Repeat Buyers (%); Number of Customers; Average Purchases per Customer; Distribution of Purchases by Time of Day; Rolling Retention
+3) Dashboard on **customer behavior** (["Online_Marketplace_Customer_Behavior"](metabase/Metabase_Online_Marketplace_Customer_Behavior.pdf), also available via public link: http://localhost:3000/public/dashboard/2c5560be-9e2d-463b-b756-3250f4b90551):
+   - Daily Active Users (DAU);
+   - Weekly Active Users (WAU);
+   - Monthly Active Users (MAU);
+   - LTV;
+   - Repeat Buyers (%);
+   - Number of Customers;
+   - Average Purchases per Customer;
+   - Distribution of Purchases by Time of Day;
+   - Rolling Retention
 
-3) Dashboard on **product assortment** (["Online_Marketplace_Assortment"](metabase/Metabase_Online_Marketplace_Assortment.pdf), also available via public link: http://localhost:3000/public/dashboard/8bdc3023-f7e6-4aa1-9553-7eb4fad556f6): SKU Count; Average List price; Average Items per Order; Distribution of Products (ABC Segmentation); Combined ABC Segmentation; TOP-10 Products with the highest units sold; TOP-10 Products with the lowest units sold; Monthly Sales Volume Trend; Number of Orders per Month Decade; Monthly Number of Orders
+5) Dashboard on **product assortment** (["Online_Marketplace_Assortment"](metabase/Metabase_Online_Marketplace_Assortment.pdf), also available via public link: http://localhost:3000/public/dashboard/8bdc3023-f7e6-4aa1-9553-7eb4fad556f6):
+   - SKU Count;
+   - Average List price;
+   - Average Items per Order;
+   - Distribution of Products (ABC Segmentation);
+   - Combined ABC Segmentation;
+   - TOP-10 Products with the highest units sold;
+   - TOP-10 Products with the lowest units sold;
+   - Monthly Sales Volume Trend;
+   - Number of Orders per Month Decade;
+   - Monthly Number of Orders
