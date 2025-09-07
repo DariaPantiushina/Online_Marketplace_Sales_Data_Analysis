@@ -30,10 +30,12 @@ The **tasks** include: 1) identification of key growth metrics, 2) optimization 
 
 ## Analysis: key steps and outcomes
 
-### 01 - Establish a process to import sales data from the marketplace using the API
+### 01 - Configuring and establishing a process to import sales data from the marketplace using the API
 
 - **Data_analytics** DB & **sales** table created
   
 - The script [fetch_all_sales_data.py](python/fetch_all_sales_data.py) was developed to populate the database with all available historical sales data from the API (starting on 2024-01-01). It includes a mechanism to prevent re-downloading data for days that have already been retrieved
 
-- The script was set up to automatically retrieve the previous day’s sales data at 7 a.m. each day using the Windows Task Scheduler.
+- The script [fetch_sales_data.py](python/fetch_sales_data.py) was set up to automatically retrieve the previous day’s sales data at 7 a.m. each day using the Windows Task Scheduler
+
+- Logging is configured to the "log.txt" file
