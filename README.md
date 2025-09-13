@@ -52,6 +52,7 @@ The **tasks** include: 1) identification of key growth metrics, 2) optimization 
    - Average discount;
    - Average Order Value (AOV);
    - Revenue and Number of Orders by Discount Size;
+   - Revenue: Ratio to Median;
    - TOP-10 Products by Revenue;
    - TOP-10 Products by Average Order Value (AOV);
    - Monthly Sales Count;
@@ -78,6 +79,7 @@ The **tasks** include: 1) identification of key growth metrics, 2) optimization 
    - TOP-10 Products with the highest units sold;
    - TOP-10 Products with the lowest units sold;
    - Monthly Sales Volume Trend;
+   - Monthly Sales Volume: Ratio to Median;
    - Number of Orders per Month Decade;
    - Monthly Number of Orders
   
