@@ -46,7 +46,7 @@ The **tasks** include: 1) identification of key growth metrics, 2) optimization 
 
 - Developed SQL queries to retrieve and display the following key metrics on the dashboard:
 
-1) Dashboard on **sales** (["Online_Marketplace_Sales"](metabase/Metabase_Online_Marketplace_Sales.pdf):
+1) Dashboard on **sales** (["Online_Marketplace_Sales"](metabase/Metabase_Online_Marketplace_Sales.pdf)):
    - Daily / Weekly / Monthly revenue;
    - Total revenue;
    - Average discount;
@@ -59,7 +59,7 @@ The **tasks** include: 1) identification of key growth metrics, 2) optimization 
    - Monthly Revenue Trend;
    - Average Order Value Trend
 
-2) Dashboard on **customer behavior** (["Online_Marketplace_Customer_Behavior"](metabase/Metabase_Online_Marketplace_Customer_Behavior.pdf):
+2) Dashboard on **customer behavior** (["Online_Marketplace_Customer_Behavior"](metabase/Metabase_Online_Marketplace_Customer_Behavior.pdf)):
    - Daily Active Users (DAU);
    - Weekly Active Users (WAU);
    - Monthly Active Users (MAU);
@@ -70,7 +70,7 @@ The **tasks** include: 1) identification of key growth metrics, 2) optimization 
    - Distribution of Purchases by Time of Day;
    - Rolling Retention
 
-3) Dashboard on **product assortment** (["Online_Marketplace_Assortment"](metabase/Metabase_Online_Marketplace_Assortment.pdf):
+3) Dashboard on **product assortment** (["Online_Marketplace_Assortment"](metabase/Metabase_Online_Marketplace_Assortment.pdf)):
    - SKU Count;
    - Average List price;
    - Average Items per Order;
