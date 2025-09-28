@@ -46,7 +46,7 @@ The **tasks** include: 1) identification of key growth metrics, 2) optimization 
 
 - Developed SQL queries to retrieve and display the following key metrics on the dashboard:
 
-1) Dashboard on **sales** (["Online_Marketplace_Sales"](metabase/Metabase_Online_Marketplace_Sales.pdf) ):
+1) Dashboard on **sales** (["Online_Marketplace_Sales"](metabase/Metabase_Online_Marketplace_Sales.pdf)):
    - Daily / Weekly / Monthly revenue;
    - Total revenue;
    - Average discount;
